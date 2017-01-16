@@ -10,7 +10,7 @@ http.createServer(function(req, res) {
         folder = folder.substr(folder.indexOf('/')+1);
     }
 
-    var appid = config.appid; // 开发者的项目 ID，即 App Id
+    var appid = config.appid; // 开发者的项目 ID，即COS控制台密钥管理里的 APPID
     var bucket = config.bucket; // 空间名称 Bucket
     var secretID = config.secretId; // 项目的 Secret ID
     var secretKey = config.secretKey; // 项目的 Secret Key
