@@ -8,3 +8,9 @@
 3. 执行`node server.js`，建议配合pm2, forever, supervisor等模块方便后台运行管理。
 
 4. 访问服务器ip:端口号，即可获取签名，建议配置域名解析和nginx反向代理后使用。
+
+## 相关
+
+* [WeCOS-UGC-DEMO](https://github.com/tencentyun/wecos-ugc-upload-demo)——小程序用户资源上传COS DEMO
+
+* [WeCOS](https://github.com/tencentyun/wecos-ugc-upload-demo)——小程序COS瘦身方案，解决官方1MB限制的烦恼
